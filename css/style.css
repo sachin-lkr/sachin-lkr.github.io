@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ancizar Serif", serif;
+}
+:root{
+    --primary:#030a16;
+    --secondary: #323946;
+    --disabled: #fff3;
+    --green: #7cf03d;
+    --white: #fff;
+}
+body {
+  overflow-x: hidden;
+}
+html{
+    background: var(--primary);
+    color: var(--white);
+    min-height: 100dvh;
+    overflow-x: hidden;
+    transition: all 03s ease;
+}
+body .no-scroll{
+    height: 100dvh;
+    overflow: hidden;
+    
+}
+.main-container{
+    max-width: 700PX;
+    padding: 100px 1rem 1rem;
+    margin: 0 auto;
+    /* border: 2px solid rgb(188, 17, 17); */
+}
+header{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* position: fixed; */
+    margin: 1rem 0;
+}
+/* header {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+ background: #0b0f1a; /* Navbar ka background color (same jo aap use kar rahe ho) */
+
+/*} */
+
+.brand-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.brand-info h1{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.brand-info h1 span{
+    color: red;
+}
+.brand-info h1 .dev {
+    font-size:1.5rem ;
+    font-weight: 400;
+    color: white;
+}
+
+.brand-info img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   
+}
+#menu-toggle{
+    display: none;
+    
+}
+.menu-icon{
+    font-size: 2rem;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+#overlay{
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+#menu-toggle:checked ~ #overlay{
+    display: block;
+    position: fixed;
+    inset: 0;
+    top: 7rem;
+    height: 100dvh;
+    background: var(--primary);
+    opacity: 1;
+    pointer-events: none;
+}
+nav{
+    /* position: fixed;
+    top: 0; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 2rem 0;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: all 0.4s ease;
+
+}
+#menu-toggle:checked~nav{
+    transform: translateX(0%);
+}
+nav a{
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 5px solid var(--secondary);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--white);
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.4s ease;
+     
+}
+#menu-toggle:checked~nav a{
+    opacity: 1;
+    transform: translateX(0%);
+    transition-delay: calc(var(--i)*0.2s);
+}
+header{
+    border-radius: 0.5rem;
+     position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background: #0b0f1a;
+}
+header {
+    position: fixed;   /* hamesha top pe chipka rahega */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #0b0f1a;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (width >= 1024px) {
+    .main-container{
+        max-width: 950px;
+        padding: 0px 1rem 1rem;
+        margin: 0 auto;
+    }
+    header{
+        position: static;
+        /* height: 96px;
+        background-color: #7cf03d;
+        position: fixed; */
+        
+       
+       
+    }
+    header {
+     border-radius: 1rem;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     background: #0b0f1a; /* Navbar ka background color (same jo aap use kar rahe ho) */
+    }
+    .brand-info{
+        gap:20px;
+    }
+    .brand-info img{
+        width: 90px;
+        height: 90px;
+    }
+    .brand-info h1{
+        font-size: 2.5rem;
+    }
+    #menu-toggle{
+        pointer-events: none;
+    }
+    .menu-icon{
+        display: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        position: static;
+        transform: translateX(0%);
+    }
+    nav a{
+        padding: 0;
+        font-size: 1.5rem;
+        border: none;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    nav a:hover{
+        color: var(--green);
+    }
+
+    
+}
+@media screen and (width>=1250px) {
+    
+    .main-container{
+        max-width: 1200px;
+    }
+   
+    .brand-info{
+        gap: 35px;
+    }
+    .brand-info img{
+        width: 80px;
+        height: 80px;
+    }
+    .brand-info h1{
+        font-size: 2.5rem;
+        line-height: 1.8rem;
+    }
+    nav{
+        gap: 2.5rem;
+    }
+    nav a{
+        font-size: 2rem;
+    }
+    header{
+        margin-top: 0px;
+
+    }
+}
