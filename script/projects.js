@@ -18,9 +18,9 @@ const projectList = [
     description:
       "This project is a responsive calculator application created with HTML, CSS, and JavaScript. It allows users to perform fundamental arithmetic operations including addition, subtraction, multiplication, and division. The design is minimalistic with a modern UI, and the project demonstrates core JavaScript concepts such as DOM manipulation, event handling, and dynamic updates. It is fully responsive, ensuring smooth functionality on both desktop and mobile devices.",
     techStack: ["HTML", "CSS" , "ANd JavaScript"],
-    image: "assets/projects/colculator.jpg",
-    liveLink: "#",
-    githubLink: "#",
+    image: "assets/projects/colculator.JPG",
+    liveLink: "https://sachin-lkr.github.io/calculator/",
+    githubLink: "https://github.com/sachin-lkr/calculator",
   },
 ];
 
@@ -106,4 +106,5 @@ const renderProject =(index)=>{
   
 };
 renderProject(currentIndex);
+
 
