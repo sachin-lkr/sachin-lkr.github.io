@@ -6,7 +6,7 @@ const projectList = [
     title: "Weather-app projects",
     description:
       "A responsive Weather App that provides real-time weather updates including temperature, humidity, wind speed, and conditions using HTML, CSS, JavaScript & OpenWeatherMap API.!",
-    techStack: ["HTML", "CSS", "JavaScript"],
+    techStack: ["HTML", "CSS", "and JavaScript"],
     image: "assets/projects/weather-apps.JPG",
     liveLink: "https://sachin-lkr.github.io/weather-app/",
     githubLink: "https://github.com/sachin-lkr/weather-app",
@@ -17,10 +17,32 @@ const projectList = [
     title: "Calculator",
     description:
       "This project is a responsive calculator application created with HTML, CSS, and JavaScript. It allows users to perform fundamental arithmetic operations including addition, subtraction, multiplication, and division. The design is minimalistic with a modern UI, and the project demonstrates core JavaScript concepts such as DOM manipulation, event handling, and dynamic updates. It is fully responsive, ensuring smooth functionality on both desktop and mobile devices.",
-    techStack: ["HTML", "CSS" , "ANd JavaScript"],
+    techStack: ["HTML", "CSS" , "and JavaScript"],
     image: "assets/projects/colculator.JPG",
     liveLink: "https://sachin-lkr.github.io/calculator/",
     githubLink: "https://github.com/sachin-lkr/calculator",
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "To-Do List",
+    description:
+      "Task management app built with HTML, CSS, and JavaScript, allowing users to add, mark complete, and delete tasks with local storage support.",
+    techStack: ["HTML", "CSS" , "and JavaScript"],
+    image: "assets/projects/to-do.JPG",
+    liveLink: "https://sachin-lkr.github.io/To-Do-List/",
+    githubLink: "https://github.com/sachin-lkr/To-Do-List",
+  },
+  {
+    id: 4,
+    number: "04",
+    title: "Quiz-App",
+    description:
+      "A web-based quiz app where users can attempt multiple-choice questions, receive instant feedback on answers, and view their final score. Designed with a responsive interface and developed using HTML, CSS, and JavaScript for smooth performance on desktop and mobile.",
+    techStack: ["HTML", "CSS" , "and JavaScript"],
+    image: "assets/projects/quiz-app.JPG",
+    liveLink: "https://sachin-lkr.github.io/Quiz-app/",
+    githubLink: "https://github.com/sachin-lkr/Quiz-app",
   },
 ];
 
@@ -106,5 +128,4 @@ const renderProject =(index)=>{
   
 };
 renderProject(currentIndex);
-
 
