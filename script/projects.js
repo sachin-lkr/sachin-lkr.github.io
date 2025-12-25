@@ -51,7 +51,7 @@ const projectList = [
     description:
       "A clean and responsive GitHub Profile Search application built with HTML, CSS, and JavaScript, leveraging the GitHub Public API to show real-time user details.",
     techStack: ["HTML", "CSS" , "and JavaScript"],
-    image: "assets/projects/searchgithub.jpg",
+    image: "assets/projects/searchgithub.JPG",
     liveLink: "https://sachin-lkr.github.io/github-profile-search/",
     githubLink: "https://github.com/sachin-lkr/github-profile-search",
   },
@@ -62,7 +62,7 @@ const projectList = [
     description:
       "A Notes application built using HTML, CSS, and JavaScript that allows users to create, edit, delete, and manage notes with a simple and user-friendly interface.",
     techStack: ["HTML", "CSS" , "and JavaScript"],
-    image: "assets/projects/notes.jpg",
+    image: "assets/projects/notes.JPG",
     liveLink: "https://sachin-lkr.github.io/notes-apps/",
     githubLink: "https://github.com/sachin-lkr/notes-apps",
   },
@@ -73,7 +73,7 @@ const projectList = [
     description:
       "A Text QR Code Generator built using HTML, CSS, and JavaScript that converts user-entered text into a QR code instantly with a clean and responsive interface.",
     techStack: ["HTML", "CSS" , "and JavaScript"],
-    image: "assets/projects/qr.jpg",
+    image: "assets/projects/qr.JPG",
     liveLink: "https://sachin-lkr.github.io/text_qr_code/",
     githubLink: "https://github.com/sachin-lkr/text_qr_code",
   },
@@ -84,7 +84,7 @@ const projectList = [
     description:
       "A Life Timer web application built using HTML, CSS, and JavaScript that calculates and displays a user’s age in years, months, days, hours, minutes, and seconds in real time.",
     techStack: ["HTML", "CSS" , "and JavaScript"],
-    image: "assets/projects/lifetimer.jpg",
+    image: "assets/projects/lifetimer.JPG",
     liveLink: "https://sachin-lkr.github.io/lifeTimer/",
     githubLink: "https://github.com/sachin-lkr/lifeTimer",
   },
@@ -172,4 +172,5 @@ const renderProject =(index)=>{
   
 };
 renderProject(currentIndex);
+
 
