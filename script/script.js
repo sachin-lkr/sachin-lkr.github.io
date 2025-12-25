@@ -6,9 +6,9 @@ if(toggle && toggle.checked){
 }
 const words=[
     "Sachin Kumar",
-    "Front-end Developer",
-    "Coder", 
-    "Developer",
+    "Front-end Dev.",
+    "Frontend Engineer",  
+    "Web UI Engineer",
     "Programer", 
     
 ];
@@ -91,35 +91,35 @@ navlinks.forEach((link)=>{
             {
                 id: 1,
                 icon:"",
-                text:"Website Development",
+                text:"Frontend Development",
                 para:"I build responsive and modern websites using the latest technologies like HTML, CSS, JavaScript, React, and Node.js",
             },
             {
                 id:2,
                 icon:"",
-                text:"Frontend Development",
-                para:"I create clean, interactive, and mobile-friendly user interfaces.I ",
+                text:"Single Page Applications (SPA)",
+                para:"Single Page Applications (SPA) using React ",
 
             },
             {
                 id:3,
                 icon:"",
-                text:"Backend Development",
-                para:"I develop secure and scalable server-side applications with Node.js & Express.js.",
+                text:"API Integration",
+                para:"API Integration for real-time data apps.",
 
             },
              {
                 id:4,
                 icon:"",
-                text:" Database Management",
-                para:"I manage and design structured databases using MongoDB.",
+                text:" Git & GitHub",
+                para:"Version Control with Git and GitHub",
 
             },
             {
                 id:5,
                 icon:"",
-                text:"Full-Stack Developer",
-                para:"i can develop complete end-to-end applications from frontend to backend"
+                text:"Small Backend / App Logic",
+                para:"Node.js + Express se simple backend API. JSON data handling etc. "
             },
              {
                 id:6,

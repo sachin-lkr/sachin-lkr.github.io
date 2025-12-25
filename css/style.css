@@ -36,8 +36,6 @@ body .no-scroll{
     /* border: 2px solid rgb(188, 17, 17); */
 }
 header{
-   
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,13 +43,13 @@ header{
     /* position: fixed; */
     margin: 1rem 0;
 }
-/* header {
+header {
   position: sticky;
   top: 0px;
   z-index: 1000;
  background: #0b0f1a; /* Navbar ka background color (same jo aap use kar rahe ho) */
 
-/*} */
+}
 
 .brand-info{
     display: flex;
@@ -165,15 +163,7 @@ header {
         padding: 0px 1rem 1rem;
         margin: 0 auto;
     }
-    header{
-        position: static;
-        /* height: 96px;
-        background-color: #7cf03d;
-        position: fixed; */
-        
-       
-       
-    }
+  
     header {
      border-radius: 1rem;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 

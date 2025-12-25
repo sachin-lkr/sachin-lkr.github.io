@@ -28,31 +28,32 @@ aboutTabs.forEach((tab)=>{
         if(activeTab=== "experience"){
             const experience=document.querySelector(".experience-list");
 
-            const experienceList = [
-              {
-          id: 1,
+           const experienceList = [
+           {
+          id:1,
+          date: "Experience",
+          position: "Front-end Developer",
+          company: "Learning Project (2025)",
+          details:
+            "I have completed 8+ projects, including a Weather App, Calculator, To-Do App, Notes App, MCQ Quiz, Sign-In UI, Life Timer, GitHub Profile Search, and an E-commerce Website. These projects helped me understand real-world problem solving, API usage, UI/UX, and clean code practices.",
+          },
+          {
+          id: 2,
           date: "Looking for Freelance Opportunities",
           position: "Freelance Web Developer",
           company: "Open to Collaborations & Freelance Work",
           details:
-            "I’m a passionate web developer (MERN Stack / Frontend / Backend) currently open for freelance projects. I help businesses and individuals build fast, responsive, and user-friendly websites.  Developed custom websites for local businesses using HTML, CSS, JavaScript.",
-        },
-        {
-          id: 2,
-          date: "2024 - 2025",
-          position: "MERN Stack Developer",
-          company: "Learning Complete (June-2025)",
-          details:
-            "Worked on full-stack web applications using the MERN stack. Gained hands-on experience in authentication, REST APIs, and MongoDB schemas.",
+            "I’m a passionate web developer (Frontend ) currently open for freelance projects. I help businesses and individuals build fast, responsive, and user-friendly websites.  Developed custom websites for local businesses using HTML, CSS, JavaScript.",
         },
        {
           id: 3,
-          date: "2023 - 2024",
+          date: "2024-2025",
           position: "Frontend Developer",
           company: "Self-Employed",
           details:
             "Built responsive and optimized UIs using React.js and Tailwind CSS. Collaborated with backend teams to integrate APIs and improve user experience.",
         },
+        
         
         
             ];

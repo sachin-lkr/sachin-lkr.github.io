@@ -8,6 +8,13 @@ const contactList= [
         href: "tel:+916206136626",
     },
     {
+        id:length,
+        icon:"fa-brands fa-whatsapp",
+        name:"WhatsApp",
+        value:"+91 6206136626",
+        href: "https://wa.me/916206136626" ,
+    },
+    {
         id:2,
         icon:"fa-solid fa-envelope",
         name:"E-Mail",
@@ -51,7 +58,7 @@ const originalStyle ={
 document.getElementById("contact-form").addEventListener("submit",function(e){
     e.preventDefault();
 
-    sendBtn.innerHTMl ='Sending...';
+    sendBtn.innerText ='Sending...';
     sendBtn.style.backgroundColor="gray";
     sendBtn.style.color="white";
     sendBtn.style.border="none";

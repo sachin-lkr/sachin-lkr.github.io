@@ -7,7 +7,7 @@ const projectList = [
     description:
       "A responsive Weather App that provides real-time weather updates including temperature, humidity, wind speed, and conditions using HTML, CSS, JavaScript & OpenWeatherMap API.!",
     techStack: ["HTML", "CSS", "and JavaScript"],
-    image: "assets/projects/weather-apps.JPG",
+    image: "assets/projects/weather-app.webp",
     liveLink: "https://sachin-lkr.github.io/weather-app/",
     githubLink: "https://github.com/sachin-lkr/weather-app",
   },
@@ -18,7 +18,7 @@ const projectList = [
     description:
       "This project is a responsive calculator application created with HTML, CSS, and JavaScript. It allows users to perform fundamental arithmetic operations including addition, subtraction, multiplication, and division. The design is minimalistic with a modern UI, and the project demonstrates core JavaScript concepts such as DOM manipulation, event handling, and dynamic updates. It is fully responsive, ensuring smooth functionality on both desktop and mobile devices.",
     techStack: ["HTML", "CSS" , "and JavaScript"],
-    image: "assets/projects/colculator.JPG",
+    image: "assets/projects/colculator.webp",
     liveLink: "https://sachin-lkr.github.io/calculator/",
     githubLink: "https://github.com/sachin-lkr/calculator",
   },
@@ -43,6 +43,50 @@ const projectList = [
     image: "assets/projects/quiz-app.JPG",
     liveLink: "https://sachin-lkr.github.io/Quiz-app/",
     githubLink: "https://github.com/sachin-lkr/Quiz-app",
+  },
+  {
+    id: 5,
+    number: "05",
+    title: "Search GitHub Profile",
+    description:
+      "A clean and responsive GitHub Profile Search application built with HTML, CSS, and JavaScript, leveraging the GitHub Public API to show real-time user details.",
+    techStack: ["HTML", "CSS" , "and JavaScript"],
+    image: "assets/projects/searchgithub.jpg",
+    liveLink: "https://sachin-lkr.github.io/github-profile-search/",
+    githubLink: "https://github.com/sachin-lkr/github-profile-search",
+  },
+  {
+    id: 6,
+    number: "06",
+    title: "Notes App",
+    description:
+      "A Notes application built using HTML, CSS, and JavaScript that allows users to create, edit, delete, and manage notes with a simple and user-friendly interface.",
+    techStack: ["HTML", "CSS" , "and JavaScript"],
+    image: "assets/projects/notes.jpg",
+    liveLink: "https://sachin-lkr.github.io/notes-apps/",
+    githubLink: "https://github.com/sachin-lkr/notes-apps",
+  },
+  {
+    id: 7,
+    number: "07",
+    title: "Text QR code Generator",
+    description:
+      "A Text QR Code Generator built using HTML, CSS, and JavaScript that converts user-entered text into a QR code instantly with a clean and responsive interface.",
+    techStack: ["HTML", "CSS" , "and JavaScript"],
+    image: "assets/projects/qr.jpg",
+    liveLink: "https://sachin-lkr.github.io/text_qr_code/",
+    githubLink: "https://github.com/sachin-lkr/text_qr_code",
+  },
+  {
+    id: 8,
+    number: "08",
+    title: "Life-Timer",
+    description:
+      "A Life Timer web application built using HTML, CSS, and JavaScript that calculates and displays a user’s age in years, months, days, hours, minutes, and seconds in real time.",
+    techStack: ["HTML", "CSS" , "and JavaScript"],
+    image: "assets/projects/lifetimer.jpg",
+    liveLink: "https://sachin-lkr.github.io/lifeTimer/",
+    githubLink: "https://github.com/sachin-lkr/lifeTimer",
   },
 ];
 
@@ -91,7 +135,7 @@ const renderProject =(index)=>{
 
                 <div class="right-section">
                     <a href=${projectContent?.liveLink} target="_blank">
-                     <img src=${projectContent.image} alt="project" title="Click-here">
+                     <img src=${projectContent.image} alt="project" title="Click-here"loading="lazy">
                     </a>
                     
                     <div class="arrows">
